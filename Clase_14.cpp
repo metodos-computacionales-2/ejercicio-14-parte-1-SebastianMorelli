@@ -5,8 +5,6 @@ using namespace std;
 
 //Declaración Variables.
 
-double y0 = 0; 
-double t0 = 0; 
 double h0 = 0.01;
 
 //Declaración Funciones.
@@ -19,6 +17,9 @@ double Euler(double PosY, double t, double h);
 
 int main()
 {
+    double y0 = 0; 
+    double t0 = 0; 
+    
     cout<<t0<<", "<<y0<<endl;
     
     for(int i = 0; i <= 100; i++)
